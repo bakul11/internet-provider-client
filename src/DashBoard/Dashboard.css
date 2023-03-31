@@ -1,0 +1,89 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.slidebar {
+    width: 200px;
+    height: 100vh;
+    overflow-y: scroll;
+    background: #212529;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.slide-main .active {
+    background: linear-gradient(to right, rgb(134, 15, 85), rgba(206, 203, 18, 0.685));
+    padding: 0 !important;
+}
+
+
+.bill-btn {
+    transition: all 0.5s ease-in-out;
+}
+
+.bill-btn:hover {
+    background: #ce8b0e !important;
+}
+
+
+.main-balace-item {
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+
+.main-balance-sec,
+.main-balace-item h3 {
+    font-weight: 900;
+    font-size: 35px;
+
+}
+
+.services-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.main-color1 {
+    background: linear-gradient(to right, #145caf, rgb(116, 116, 163))
+}
+
+.main-color2 {
+    background: linear-gradient(to right, #9E5E10, #CA8024)
+}
+
+.main-color3 {
+    background: linear-gradient(to right, #215890, #247AD3)
+}
+
+.main-color4 {
+    background: linear-gradient(to right, #962386, #cf38b6d0)
+}
+
+.main-color5 {
+    background: linear-gradient(to right, #968e23, #998d1dd0)
+}
+
+.services-logo h4 {
+    background: #f7f3f352;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+
+
+.circleRound {
+    height: 150px;
+}

@@ -1,0 +1,19 @@
+.login-section {
+    color: #212529;
+    overflow: hidden;
+}
+
+.login-logo {}
+
+.login-box2 {
+    padding-bottom: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-logo-main {
+    color: rgb(red, green, blue)
+}
+
+.login-logo-main span {
+    color: #953c08;
+}

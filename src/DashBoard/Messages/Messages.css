@@ -1,0 +1,10 @@
+.showMessage {
+    background: #f5ebeb33;
+    border-radius: 11px;
+    border: 1px solid white;
+    padding: 3px 5px;
+}
+
+.message-search input {
+    font-size: 25px;
+}
